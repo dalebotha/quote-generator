@@ -2,15 +2,35 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <script src="https://kit.fontawesome.com/f97aba4e5c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <!-- script -->
 
+    <div class="quote-container" id="quotecontainer">
+    
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <!-- Quote -->
+            <span id="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat ducimus, iste tempore ipsa autem. Non atque labore deleniti accusantium.</span>
+            <!-- Author -->
+            <div class="quote-author">
+                <span class="quthor">Me</span>
+            <div>
+            <!-- Buttons -->
+            <div class="buttons-container">
+                <button class="twitter-button" id="twitter" title="Tweet this!">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote">New quote</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- script -->
     <script src="script.js"></script>
 </body>
 </html>
